@@ -1,0 +1,49 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('/assets/fundo_login.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  }
+
+  p {
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  }
+}
+
+mat-card {
+  width: 350px;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #DADADA;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+.erro-login {
+  color: #FF6666;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: bold;
+}

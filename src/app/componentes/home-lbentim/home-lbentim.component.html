@@ -1,0 +1,27 @@
+<mat-toolbar color="primary" class="toolbar-home">
+  <span class="titulo-sistema">Bentim Motors - Compre seu carro de forma segura</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/home">
+    🚗 Home
+  </button>
+  <button mat-button (click)="sair()">
+    🔧 Sair
+  </button>
+</mat-toolbar>
+
+<div class="home-wrapper">
+  <div class="car-grid">
+    <mat-card class="car-card" *ngFor="let carro of carros">
+      <img mat-card-image [src]="carro.imagem" alt="{{ carro.modelo }}" />
+      <mat-card-title>{{ carro.modelo }} - {{ carro.ano }}</mat-card-title>
+      <mat-card-content>
+        <p>Preço: R$ {{ carro.preco | number:'1.2-2' }}</p>
+        <p>Quilometragem: {{ carro.km }} km</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary">Ver detalhes</button>
+        <button mat-button color="accent">Comprar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

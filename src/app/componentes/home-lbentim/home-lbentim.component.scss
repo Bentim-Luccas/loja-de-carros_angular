@@ -1,0 +1,40 @@
+.home-wrapper {
+  padding: 32px;
+  background: linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+  min-height: 100vh;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 32px;
+}
+
+.car-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  mat-card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 8px;
+  }
+
+  mat-card-content p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+  }
+}
