@@ -30,70 +30,70 @@ export class HomeLbentimComponent {
       ano: 2020,
       preco: 85000,
       km: 32000,
-      imagem: '/assets/carros/toyota_corolla.jpg'
+      imagem: 'assets/carros/toyota_corolla.jpg'
     },
     {
       modelo: 'Honda Civic',
       ano: 2019,
       preco: 79000,
       km: 41000,
-      imagem: '/assets/carros/honda_civic.jpg'
+      imagem: 'assets/carros/honda_civic.jpg'
     },
     {
       modelo: 'Chevrolet Onix',
       ano: 2022,
       preco: 68000,
       km: 15000,
-      imagem: '/assets/carros/chevrolet_onix.jpg'
+      imagem: 'assets/carros/chevrolet_onix.jpg'
     },
     {
       modelo: 'Volkswagen Golf GTI',
       ano: 2021,
       preco: 135000,
       km: 22000,
-      imagem: '/assets/carros/golf_gti.jpg'
+      imagem: 'assets/carros/golf_gti.jpg'
     },
     {
       modelo: 'Volkswagen Gol',
       ano: 2023,
       preco: 65000,
       km: 12000,
-      imagem: '/assets/carros/gol.jpg'
+      imagem: 'assets/carros/gol.jpg'
     },
     {
       modelo: 'Honda Fit',
       ano: 2016,
       preco: 45000,
       km: 80000,
-      imagem: '/assets/carros/honda_fit.jpg'
+      imagem: 'assets/carros/honda_fit.jpg'
     },
     {
       modelo: 'Fiat Fastback',
       ano: 2026,
       preco: 120000,
       km: 0,
-      imagem: '/assets/carros/fiat_fastback.png'
+      imagem: 'assets/carros/fiat_fastback.png'
     },
     {
       modelo: 'Toyota Etios',
       ano: 2024,
       preco: 70000,
       km: 0,
-      imagem: '/assets/carros/toyota_etios.jpg'
+      imagem: 'assets/carros/toyota_etios.jpg'
     },
     {
       modelo: 'Porsche Cayman',
       ano: 2024,
       preco: 550000,
       km: 20000,
-      imagem: '/assets/carros/porsche_cayman.jpg'
+      imagem: 'assets/carros/porsche_cayman.jpg'
     },
     {
       modelo: 'BMW X1',
       ano: 2017,
       preco: 75000,
       km: 62000,
-      imagem: '/assets/carros/bmw_x1.jpg'
+      imagem: 'assets/carros/bmw_x1.jpg'
     }
   ];
 
