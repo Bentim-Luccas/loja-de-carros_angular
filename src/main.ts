@@ -6,11 +6,13 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 import { routes } from './app/app.routes';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDialogModule } from '@angular/material/dialog';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 bootstrapApplication(PrincipalLbentimComponent, {
   providers: [
     provideRouter(routes),
     provideAnimations(),
-    importProvidersFrom(MatToolbarModule, MatDialogModule)
+    importProvidersFrom(MatToolbarModule, MatDialogModule),
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ]
 });
